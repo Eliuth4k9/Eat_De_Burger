@@ -1,5 +1,5 @@
-var connection = require("./connection");
 
+var connection = require("./connection");
 //built it using CatsApp as a reference.
 
 function printQuestionMarks(num) {

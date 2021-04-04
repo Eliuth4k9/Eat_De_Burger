@@ -1,12 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Burger</title>
-</head>
-<body>
+<h1 class="">Burgers!</h1>
 
-</body>
-</html> 
+<h2 class="">Not yet devoured</h2>
+
+<ul>
+    {{#each burgers}}
+        {{#unless devoured}}
+    <li>
+            {{ burger_name }}   
+            <button type="button" class="devour-button" data-id="{{id}}">Devour!</button>
+    </li><br>
+        {{/unless}}
+    {{/each}}
+</ul>
+
+<h2 class="">Devoured!</h2>
+<ul>
+    {{#each burgers}}
+        {{#if devoured}}
+    <li>
+        {{burger_name}}
+    </li>
+        {{/if}}
+    {{/each}}
+</ul>
+
+<h2 class="add-burger">Add a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="burgerData">Enter Burger Here:</label>
+    <input type="text" id="burgerData"/>
+  </div>
+
+  <button type="submit" class="submit-button">Add A Burger</button>
+</form>
