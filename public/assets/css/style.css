@@ -1,0 +1,103 @@
+* {
+  /* margin: 0; */
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: helvetica;
+  color: rgb(228, 51, 7);
+}
+  
+
+
+li {
+  padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: dotted 1px green;
+    opacity: 4;
+    font-weight: lighter;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  border: dotted 1.5px green;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.create-form {
+  padding: 2px;
+  margin-left: 43%;
+  margin-right: 40%;
+  opacity: 1;
+  border: dotted 1.5px green;
+  font-weight: lighter;
+}
+
+.form-group {
+  margin-bottom: 10px;
+ 
+}
+
+.headerTag {
+ /*this is from my project */
+  font-size: xx-large;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px #070707,
+        1px 2px 1px #070707,
+        1px 3px 1px #070707,
+        1px 4px 1px #070707,
+        1px 5px 1px #070707,
+        1px 6px 1px #070707,
+        1px 7px 1px #070707,
+        1px 8px 1px #070707,
+        1px 9px 1px #070707,
+        1px 10px 1px #070707,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+    line-height: 1.0;
+  letter-spacing: -0.03em;
+  
+}
+
+.devour-button {
+  background-color: #4CAF50;
+  border: dotted 1.5px green;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.add-burger {
+  margin-left: 2px;
+  margin-top: 40px;
+  font-size: xx-large;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #070707,
+  1px 2px 1px #070707,
+  1px 3px 1px #070707,
+  1px 4px 1px #070707,
+  1px 5px 1px #070707,
+  1px 6px 1px #070707,
+  1px 7px 1px #070707,
+  1px 8px 1px #070707,
+  1px 9px 1px #070707,
+  1px 10px 1px #070707,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
+line-height: 1.0;
+letter-spacing: -0.03em;
+}
