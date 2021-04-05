@@ -16,7 +16,7 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 ```
 ## Example of HTML
 
-<img src="./assets/images/eatDeBurger.jpg">
+<img src="../assets/images/eatDeBurger.jpg">
 
 ## Demo link
 
